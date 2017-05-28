@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 7bae9210276fd1441a9d81fd5d661084
+timeCreated: 1491916017
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Santa_model__RiggFinish_UV_Ref:Back_1
+    100002: Santa_model__RiggFinish_UV_Ref:Back_2
+    100004: Santa_model__RiggFinish_UV_Ref:Back_3
+    100006: Santa_model__RiggFinish_UV_Ref:Back_4
+    100008: Santa_model__RiggFinish_UV_Ref:joint5
+    100010: Santa_model__RiggFinish_UV_Ref:joint6
+    100012: Santa_model__RiggFinish_UV_Ref:joint7
+    100014: Santa_model__RiggFinish_UV_Ref:Left_Ankle
+    100016: Santa_model__RiggFinish_UV_Ref:Left_Ball
+    100018: Santa_model__RiggFinish_UV_Ref:Left_Clavical
+    100020: Santa_model__RiggFinish_UV_Ref:Left_Elbow
+    100022: Santa_model__RiggFinish_UV_Ref:Left_Finger_1
+    100024: Santa_model__RiggFinish_UV_Ref:Left_Finger_2
+    100026: Santa_model__RiggFinish_UV_Ref:Left_Finger_3
+    100028: Santa_model__RiggFinish_UV_Ref:Left_Forearm
+    100030: Santa_model__RiggFinish_UV_Ref:Left_Knee
+    100032: Santa_model__RiggFinish_UV_Ref:Left_Leg
+    100034: Santa_model__RiggFinish_UV_Ref:Left_Shoulder
+    100036: Santa_model__RiggFinish_UV_Ref:Left_Thumb_1
+    100038: Santa_model__RiggFinish_UV_Ref:Left_Thumb_2
+    100040: Santa_model__RiggFinish_UV_Ref:Left_Toe
+    100042: Santa_model__RiggFinish_UV_Ref:Left_Wrist
+    100044: Santa_model__RiggFinish_UV_Ref:Right_Ankle
+    100046: Santa_model__RiggFinish_UV_Ref:Right_Ball
+    100048: Santa_model__RiggFinish_UV_Ref:Right_Clavical
+    100050: Santa_model__RiggFinish_UV_Ref:Right_Elbow
+    100052: Santa_model__RiggFinish_UV_Ref:Right_Finger_1
+    100054: Santa_model__RiggFinish_UV_Ref:Right_Finger_2
+    100056: Santa_model__RiggFinish_UV_Ref:Right_Finger_3
+    100058: Santa_model__RiggFinish_UV_Ref:Right_Forearm
+    100060: Santa_model__RiggFinish_UV_Ref:Right_Knee
+    100062: Santa_model__RiggFinish_UV_Ref:Right_Leg
+    100064: Santa_model__RiggFinish_UV_Ref:Right_Shoulder
+    100066: Santa_model__RiggFinish_UV_Ref:Right_Thumb_1
+    100068: Santa_model__RiggFinish_UV_Ref:Right_Thumb_2
+    100070: Santa_model__RiggFinish_UV_Ref:Right_Toe
+    100072: Santa_model__RiggFinish_UV_Ref:Right_Wrist
+    100074: Santa_model__RiggFinish_UV_Ref:Root
+    100076: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+    100078: Santa_model__RiggFinish_UV_Ref:Skeleton_Group
+    100080: //RootNode
+    400000: Santa_model__RiggFinish_UV_Ref:Back_1
+    400002: Santa_model__RiggFinish_UV_Ref:Back_2
+    400004: Santa_model__RiggFinish_UV_Ref:Back_3
+    400006: Santa_model__RiggFinish_UV_Ref:Back_4
+    400008: Santa_model__RiggFinish_UV_Ref:joint5
+    400010: Santa_model__RiggFinish_UV_Ref:joint6
+    400012: Santa_model__RiggFinish_UV_Ref:joint7
+    400014: Santa_model__RiggFinish_UV_Ref:Left_Ankle
+    400016: Santa_model__RiggFinish_UV_Ref:Left_Ball
+    400018: Santa_model__RiggFinish_UV_Ref:Left_Clavical
+    400020: Santa_model__RiggFinish_UV_Ref:Left_Elbow
+    400022: Santa_model__RiggFinish_UV_Ref:Left_Finger_1
+    400024: Santa_model__RiggFinish_UV_Ref:Left_Finger_2
+    400026: Santa_model__RiggFinish_UV_Ref:Left_Finger_3
+    400028: Santa_model__RiggFinish_UV_Ref:Left_Forearm
+    400030: Santa_model__RiggFinish_UV_Ref:Left_Knee
+    400032: Santa_model__RiggFinish_UV_Ref:Left_Leg
+    400034: Santa_model__RiggFinish_UV_Ref:Left_Shoulder
+    400036: Santa_model__RiggFinish_UV_Ref:Left_Thumb_1
+    400038: Santa_model__RiggFinish_UV_Ref:Left_Thumb_2
+    400040: Santa_model__RiggFinish_UV_Ref:Left_Toe
+    400042: Santa_model__RiggFinish_UV_Ref:Left_Wrist
+    400044: Santa_model__RiggFinish_UV_Ref:Right_Ankle
+    400046: Santa_model__RiggFinish_UV_Ref:Right_Ball
+    400048: Santa_model__RiggFinish_UV_Ref:Right_Clavical
+    400050: Santa_model__RiggFinish_UV_Ref:Right_Elbow
+    400052: Santa_model__RiggFinish_UV_Ref:Right_Finger_1
+    400054: Santa_model__RiggFinish_UV_Ref:Right_Finger_2
+    400056: Santa_model__RiggFinish_UV_Ref:Right_Finger_3
+    400058: Santa_model__RiggFinish_UV_Ref:Right_Forearm
+    400060: Santa_model__RiggFinish_UV_Ref:Right_Knee
+    400062: Santa_model__RiggFinish_UV_Ref:Right_Leg
+    400064: Santa_model__RiggFinish_UV_Ref:Right_Shoulder
+    400066: Santa_model__RiggFinish_UV_Ref:Right_Thumb_1
+    400068: Santa_model__RiggFinish_UV_Ref:Right_Thumb_2
+    400070: Santa_model__RiggFinish_UV_Ref:Right_Toe
+    400072: Santa_model__RiggFinish_UV_Ref:Right_Wrist
+    400074: Santa_model__RiggFinish_UV_Ref:Root
+    400076: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+    400078: Santa_model__RiggFinish_UV_Ref:Skeleton_Group
+    400080: //RootNode
+    4300000: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+    7400000: Santa Run
+    9500000: //RootNode
+    13700000: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Santa Run
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Back_4
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Back_4/Santa_model__RiggFinish_UV_Ref:joint5
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Back_4/Santa_model__RiggFinish_UV_Ref:joint5/Santa_model__RiggFinish_UV_Ref:joint6
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Back_4/Santa_model__RiggFinish_UV_Ref:joint5/Santa_model__RiggFinish_UV_Ref:joint6/Santa_model__RiggFinish_UV_Ref:joint7
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Left_Clavical
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Left_Clavical/Santa_model__RiggFinish_UV_Ref:Left_Shoulder
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Left_Clavical/Santa_model__RiggFinish_UV_Ref:Left_Shoulder/Santa_model__RiggFinish_UV_Ref:Left_Elbow
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Left_Clavical/Santa_model__RiggFinish_UV_Ref:Left_Shoulder/Santa_model__RiggFinish_UV_Ref:Left_Elbow/Santa_model__RiggFinish_UV_Ref:Left_Forearm
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Left_Clavical/Santa_model__RiggFinish_UV_Ref:Left_Shoulder/Santa_model__RiggFinish_UV_Ref:Left_Elbow/Santa_model__RiggFinish_UV_Ref:Left_Forearm/Santa_model__RiggFinish_UV_Ref:Left_Wrist
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Left_Clavical/Santa_model__RiggFinish_UV_Ref:Left_Shoulder/Santa_model__RiggFinish_UV_Ref:Left_Elbow/Santa_model__RiggFinish_UV_Ref:Left_Forearm/Santa_model__RiggFinish_UV_Ref:Left_Wrist/Santa_model__RiggFinish_UV_Ref:Left_Finger_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Left_Clavical/Santa_model__RiggFinish_UV_Ref:Left_Shoulder/Santa_model__RiggFinish_UV_Ref:Left_Elbow/Santa_model__RiggFinish_UV_Ref:Left_Forearm/Santa_model__RiggFinish_UV_Ref:Left_Wrist/Santa_model__RiggFinish_UV_Ref:Left_Finger_1/Santa_model__RiggFinish_UV_Ref:Left_Finger_2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Left_Clavical/Santa_model__RiggFinish_UV_Ref:Left_Shoulder/Santa_model__RiggFinish_UV_Ref:Left_Elbow/Santa_model__RiggFinish_UV_Ref:Left_Forearm/Santa_model__RiggFinish_UV_Ref:Left_Wrist/Santa_model__RiggFinish_UV_Ref:Left_Finger_1/Santa_model__RiggFinish_UV_Ref:Left_Finger_2/Santa_model__RiggFinish_UV_Ref:Left_Finger_3
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Left_Clavical/Santa_model__RiggFinish_UV_Ref:Left_Shoulder/Santa_model__RiggFinish_UV_Ref:Left_Elbow/Santa_model__RiggFinish_UV_Ref:Left_Forearm/Santa_model__RiggFinish_UV_Ref:Left_Wrist/Santa_model__RiggFinish_UV_Ref:Left_Thumb_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Left_Clavical/Santa_model__RiggFinish_UV_Ref:Left_Shoulder/Santa_model__RiggFinish_UV_Ref:Left_Elbow/Santa_model__RiggFinish_UV_Ref:Left_Forearm/Santa_model__RiggFinish_UV_Ref:Left_Wrist/Santa_model__RiggFinish_UV_Ref:Left_Thumb_1/Santa_model__RiggFinish_UV_Ref:Left_Thumb_2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Right_Clavical
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Right_Clavical/Santa_model__RiggFinish_UV_Ref:Right_Shoulder
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Right_Clavical/Santa_model__RiggFinish_UV_Ref:Right_Shoulder/Santa_model__RiggFinish_UV_Ref:Right_Elbow
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Right_Clavical/Santa_model__RiggFinish_UV_Ref:Right_Shoulder/Santa_model__RiggFinish_UV_Ref:Right_Elbow/Santa_model__RiggFinish_UV_Ref:Right_Forearm
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Right_Clavical/Santa_model__RiggFinish_UV_Ref:Right_Shoulder/Santa_model__RiggFinish_UV_Ref:Right_Elbow/Santa_model__RiggFinish_UV_Ref:Right_Forearm/Santa_model__RiggFinish_UV_Ref:Right_Wrist
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Right_Clavical/Santa_model__RiggFinish_UV_Ref:Right_Shoulder/Santa_model__RiggFinish_UV_Ref:Right_Elbow/Santa_model__RiggFinish_UV_Ref:Right_Forearm/Santa_model__RiggFinish_UV_Ref:Right_Wrist/Santa_model__RiggFinish_UV_Ref:Right_Finger_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Right_Clavical/Santa_model__RiggFinish_UV_Ref:Right_Shoulder/Santa_model__RiggFinish_UV_Ref:Right_Elbow/Santa_model__RiggFinish_UV_Ref:Right_Forearm/Santa_model__RiggFinish_UV_Ref:Right_Wrist/Santa_model__RiggFinish_UV_Ref:Right_Finger_1/Santa_model__RiggFinish_UV_Ref:Right_Finger_2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Right_Clavical/Santa_model__RiggFinish_UV_Ref:Right_Shoulder/Santa_model__RiggFinish_UV_Ref:Right_Elbow/Santa_model__RiggFinish_UV_Ref:Right_Forearm/Santa_model__RiggFinish_UV_Ref:Right_Wrist/Santa_model__RiggFinish_UV_Ref:Right_Finger_1/Santa_model__RiggFinish_UV_Ref:Right_Finger_2/Santa_model__RiggFinish_UV_Ref:Right_Finger_3
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Right_Clavical/Santa_model__RiggFinish_UV_Ref:Right_Shoulder/Santa_model__RiggFinish_UV_Ref:Right_Elbow/Santa_model__RiggFinish_UV_Ref:Right_Forearm/Santa_model__RiggFinish_UV_Ref:Right_Wrist/Santa_model__RiggFinish_UV_Ref:Right_Thumb_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Back_1/Santa_model__RiggFinish_UV_Ref:Back_2/Santa_model__RiggFinish_UV_Ref:Back_3/Santa_model__RiggFinish_UV_Ref:Right_Clavical/Santa_model__RiggFinish_UV_Ref:Right_Shoulder/Santa_model__RiggFinish_UV_Ref:Right_Elbow/Santa_model__RiggFinish_UV_Ref:Right_Forearm/Santa_model__RiggFinish_UV_Ref:Right_Wrist/Santa_model__RiggFinish_UV_Ref:Right_Thumb_1/Santa_model__RiggFinish_UV_Ref:Right_Thumb_2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Left_Leg
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Left_Leg/Santa_model__RiggFinish_UV_Ref:Left_Knee
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Left_Leg/Santa_model__RiggFinish_UV_Ref:Left_Knee/Santa_model__RiggFinish_UV_Ref:Left_Ankle
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Left_Leg/Santa_model__RiggFinish_UV_Ref:Left_Knee/Santa_model__RiggFinish_UV_Ref:Left_Ankle/Santa_model__RiggFinish_UV_Ref:Left_Ball
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Left_Leg/Santa_model__RiggFinish_UV_Ref:Left_Knee/Santa_model__RiggFinish_UV_Ref:Left_Ankle/Santa_model__RiggFinish_UV_Ref:Left_Ball/Santa_model__RiggFinish_UV_Ref:Left_Toe
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Right_Leg
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Right_Leg/Santa_model__RiggFinish_UV_Ref:Right_Knee
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Right_Leg/Santa_model__RiggFinish_UV_Ref:Right_Knee/Santa_model__RiggFinish_UV_Ref:Right_Ankle
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Right_Leg/Santa_model__RiggFinish_UV_Ref:Right_Knee/Santa_model__RiggFinish_UV_Ref:Right_Ankle/Santa_model__RiggFinish_UV_Ref:Right_Ball
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref:Skeleton_Group/Santa_model__RiggFinish_UV_Ref:Root/Santa_model__RiggFinish_UV_Ref:Right_Leg/Santa_model__RiggFinish_UV_Ref:Right_Knee/Santa_model__RiggFinish_UV_Ref:Right_Ankle/Santa_model__RiggFinish_UV_Ref:Right_Ball/Santa_model__RiggFinish_UV_Ref:Right_Toe
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

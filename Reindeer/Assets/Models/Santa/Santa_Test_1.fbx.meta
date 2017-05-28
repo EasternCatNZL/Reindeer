@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: aebd6029d50922748bbda7f94ce7a06f
+timeCreated: 1494893595
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: imagePlane1
+    100002: Santa_model__RiggFinish_UV_Ref:Back_1
+    100004: Santa_model__RiggFinish_UV_Ref:Back_2
+    100006: Santa_model__RiggFinish_UV_Ref:Back_3
+    100008: Santa_model__RiggFinish_UV_Ref:Back_4
+    100010: Santa_model__RiggFinish_UV_Ref:Back_Bend_CTRL
+    100012: Santa_model__RiggFinish_UV_Ref:Body_Ctrl
+    100014: Santa_model__RiggFinish_UV_Ref:IK_Back_Curve
+    100016: Santa_model__RiggFinish_UV_Ref:IK_Back_Handle
+    100018: Santa_model__RiggFinish_UV_Ref:joint5
+    100020: Santa_model__RiggFinish_UV_Ref:joint6
+    100022: Santa_model__RiggFinish_UV_Ref:joint7
+    100024: Santa_model__RiggFinish_UV_Ref:Left_Ankle
+    100026: Santa_model__RiggFinish_UV_Ref:Left_ankle_IK
+    100028: Santa_model__RiggFinish_UV_Ref:Left_Ankle_Pivot
+    100030: Santa_model__RiggFinish_UV_Ref:Left_Arm_Ik
+    100032: Santa_model__RiggFinish_UV_Ref:Left_Ball
+    100034: Santa_model__RiggFinish_UV_Ref:Left_Ball_IK
+    100036: Santa_model__RiggFinish_UV_Ref:Left_Clavical
+    100038: Santa_model__RiggFinish_UV_Ref:Left_Clavical_Ctrl
+    100040: Santa_model__RiggFinish_UV_Ref:Left_Elbow
+    100042: Santa_model__RiggFinish_UV_Ref:Left_Elbow_Ctrl
+    100044: Santa_model__RiggFinish_UV_Ref:Left_Finger_1
+    100046: Santa_model__RiggFinish_UV_Ref:Left_Finger_2
+    100048: Santa_model__RiggFinish_UV_Ref:Left_Finger_3
+    100050: Santa_model__RiggFinish_UV_Ref:Left_Foot_Ctrl
+    100052: Santa_model__RiggFinish_UV_Ref:Left_Forearm
+    100054: Santa_model__RiggFinish_UV_Ref:Left_Hand_Ctrl
+    100056: Santa_model__RiggFinish_UV_Ref:Left_Hand_Offset
+    100058: Santa_model__RiggFinish_UV_Ref:Left_Heel_Peel_Pivot
+    100060: Santa_model__RiggFinish_UV_Ref:Left_Knee
+    100062: Santa_model__RiggFinish_UV_Ref:Left_Knee_Ctrl
+    100064: Santa_model__RiggFinish_UV_Ref:Left_Leg
+    100066: Santa_model__RiggFinish_UV_Ref:Left_Shoulder
+    100068: Santa_model__RiggFinish_UV_Ref:Left_Swivel_Pivot
+    100070: Santa_model__RiggFinish_UV_Ref:Left_Thumb_1
+    100072: Santa_model__RiggFinish_UV_Ref:Left_Thumb_2
+    100074: Santa_model__RiggFinish_UV_Ref:Left_Toe
+    100076: Santa_model__RiggFinish_UV_Ref:Left_Toe_IK
+    100078: Santa_model__RiggFinish_UV_Ref:Left_Toe_Tap_pivot
+    100080: Santa_model__RiggFinish_UV_Ref:Left_Toe_Tip_pivot
+    100082: Santa_model__RiggFinish_UV_Ref:Left_Wrist
+    100084: Santa_model__RiggFinish_UV_Ref:Lower_Back_Ctrl
+    100086: Santa_model__RiggFinish_UV_Ref:Lower_Body_Cluster
+    100088: Santa_model__RiggFinish_UV_Ref:Rig_Group_Dont_Touch
+    100090: Santa_model__RiggFinish_UV_Ref:Right_Ankle
+    100092: Santa_model__RiggFinish_UV_Ref:Right_ankle_IK
+    100094: Santa_model__RiggFinish_UV_Ref:Right_Ankle_Pivot
+    100096: Santa_model__RiggFinish_UV_Ref:Right_Arm_Ik
+    100098: Santa_model__RiggFinish_UV_Ref:Right_Ball
+    100100: Santa_model__RiggFinish_UV_Ref:Right_Ball_IK
+    100102: Santa_model__RiggFinish_UV_Ref:Right_Clavical
+    100104: Santa_model__RiggFinish_UV_Ref:Right_Clavical_Ctrl
+    100106: Santa_model__RiggFinish_UV_Ref:Right_Elbow
+    100108: Santa_model__RiggFinish_UV_Ref:Right_Elbow_Ctrl
+    100110: Santa_model__RiggFinish_UV_Ref:Right_Finger_1
+    100112: Santa_model__RiggFinish_UV_Ref:Right_Finger_2
+    100114: Santa_model__RiggFinish_UV_Ref:Right_Finger_3
+    100116: Santa_model__RiggFinish_UV_Ref:Right_Foot_Ctrl
+    100118: Santa_model__RiggFinish_UV_Ref:Right_Forearm
+    100120: Santa_model__RiggFinish_UV_Ref:Right_Hand_Ctrl
+    100122: Santa_model__RiggFinish_UV_Ref:Right_Hand_Offset
+    100124: Santa_model__RiggFinish_UV_Ref:Right_Heel_Peel_Pivot
+    100126: Santa_model__RiggFinish_UV_Ref:Right_Knee
+    100128: Santa_model__RiggFinish_UV_Ref:Right_Knee_Ctrl
+    100130: Santa_model__RiggFinish_UV_Ref:Right_Leg
+    100132: Santa_model__RiggFinish_UV_Ref:Right_Shoulder
+    100134: Santa_model__RiggFinish_UV_Ref:Right_Swivel_Pivot
+    100136: Santa_model__RiggFinish_UV_Ref:Right_Thumb_1
+    100138: Santa_model__RiggFinish_UV_Ref:Right_Thumb_2
+    100140: Santa_model__RiggFinish_UV_Ref:Right_Toe
+    100142: Santa_model__RiggFinish_UV_Ref:Right_Toe_IK
+    100144: Santa_model__RiggFinish_UV_Ref:Right_Toe_Tap_Pivot
+    100146: Santa_model__RiggFinish_UV_Ref:Right_Toe_Tip_pivot
+    100148: Santa_model__RiggFinish_UV_Ref:Right_Wrist
+    100150: Santa_model__RiggFinish_UV_Ref:Root
+    100152: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+    100154: Santa_model__RiggFinish_UV_Ref:Skeleton_Group
+    100156: Santa_model__RiggFinish_UV_Ref:Super_Mover_Ctrl
+    100158: Santa_model__RiggFinish_UV_Ref:Upper_Back_Ctrl
+    100160: Santa_model__RiggFinish_UV_Ref:Upper_Body_Cluster
+    100162: //RootNode
+    100164: Tommy_Gun_Rig_Ref:polySurface4
+    100166: Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+    100168: Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1 1
+    100170: Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1 2
+    100172: Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1 3
+    100174: Tommy_Gun_Rig_Ref:Santa_Gun_Root_Joint
+    100176: Tommy_Gun_Rig_Ref:Santa_Tommy_Gun1
+    400000: imagePlane1
+    400002: Santa_model__RiggFinish_UV_Ref:Back_1
+    400004: Santa_model__RiggFinish_UV_Ref:Back_2
+    400006: Santa_model__RiggFinish_UV_Ref:Back_3
+    400008: Santa_model__RiggFinish_UV_Ref:Back_4
+    400010: Santa_model__RiggFinish_UV_Ref:Back_Bend_CTRL
+    400012: Santa_model__RiggFinish_UV_Ref:Body_Ctrl
+    400014: Santa_model__RiggFinish_UV_Ref:IK_Back_Curve
+    400016: Santa_model__RiggFinish_UV_Ref:IK_Back_Handle
+    400018: Santa_model__RiggFinish_UV_Ref:joint5
+    400020: Santa_model__RiggFinish_UV_Ref:joint6
+    400022: Santa_model__RiggFinish_UV_Ref:joint7
+    400024: Santa_model__RiggFinish_UV_Ref:Left_Ankle
+    400026: Santa_model__RiggFinish_UV_Ref:Left_ankle_IK
+    400028: Santa_model__RiggFinish_UV_Ref:Left_Ankle_Pivot
+    400030: Santa_model__RiggFinish_UV_Ref:Left_Arm_Ik
+    400032: Santa_model__RiggFinish_UV_Ref:Left_Ball
+    400034: Santa_model__RiggFinish_UV_Ref:Left_Ball_IK
+    400036: Santa_model__RiggFinish_UV_Ref:Left_Clavical
+    400038: Santa_model__RiggFinish_UV_Ref:Left_Clavical_Ctrl
+    400040: Santa_model__RiggFinish_UV_Ref:Left_Elbow
+    400042: Santa_model__RiggFinish_UV_Ref:Left_Elbow_Ctrl
+    400044: Santa_model__RiggFinish_UV_Ref:Left_Finger_1
+    400046: Santa_model__RiggFinish_UV_Ref:Left_Finger_2
+    400048: Santa_model__RiggFinish_UV_Ref:Left_Finger_3
+    400050: Santa_model__RiggFinish_UV_Ref:Left_Foot_Ctrl
+    400052: Santa_model__RiggFinish_UV_Ref:Left_Forearm
+    400054: Santa_model__RiggFinish_UV_Ref:Left_Hand_Ctrl
+    400056: Santa_model__RiggFinish_UV_Ref:Left_Hand_Offset
+    400058: Santa_model__RiggFinish_UV_Ref:Left_Heel_Peel_Pivot
+    400060: Santa_model__RiggFinish_UV_Ref:Left_Knee
+    400062: Santa_model__RiggFinish_UV_Ref:Left_Knee_Ctrl
+    400064: Santa_model__RiggFinish_UV_Ref:Left_Leg
+    400066: Santa_model__RiggFinish_UV_Ref:Left_Shoulder
+    400068: Santa_model__RiggFinish_UV_Ref:Left_Swivel_Pivot
+    400070: Santa_model__RiggFinish_UV_Ref:Left_Thumb_1
+    400072: Santa_model__RiggFinish_UV_Ref:Left_Thumb_2
+    400074: Santa_model__RiggFinish_UV_Ref:Left_Toe
+    400076: Santa_model__RiggFinish_UV_Ref:Left_Toe_IK
+    400078: Santa_model__RiggFinish_UV_Ref:Left_Toe_Tap_pivot
+    400080: Santa_model__RiggFinish_UV_Ref:Left_Toe_Tip_pivot
+    400082: Santa_model__RiggFinish_UV_Ref:Left_Wrist
+    400084: Santa_model__RiggFinish_UV_Ref:Lower_Back_Ctrl
+    400086: Santa_model__RiggFinish_UV_Ref:Lower_Body_Cluster
+    400088: Santa_model__RiggFinish_UV_Ref:Rig_Group_Dont_Touch
+    400090: Santa_model__RiggFinish_UV_Ref:Right_Ankle
+    400092: Santa_model__RiggFinish_UV_Ref:Right_ankle_IK
+    400094: Santa_model__RiggFinish_UV_Ref:Right_Ankle_Pivot
+    400096: Santa_model__RiggFinish_UV_Ref:Right_Arm_Ik
+    400098: Santa_model__RiggFinish_UV_Ref:Right_Ball
+    400100: Santa_model__RiggFinish_UV_Ref:Right_Ball_IK
+    400102: Santa_model__RiggFinish_UV_Ref:Right_Clavical
+    400104: Santa_model__RiggFinish_UV_Ref:Right_Clavical_Ctrl
+    400106: Santa_model__RiggFinish_UV_Ref:Right_Elbow
+    400108: Santa_model__RiggFinish_UV_Ref:Right_Elbow_Ctrl
+    400110: Santa_model__RiggFinish_UV_Ref:Right_Finger_1
+    400112: Santa_model__RiggFinish_UV_Ref:Right_Finger_2
+    400114: Santa_model__RiggFinish_UV_Ref:Right_Finger_3
+    400116: Santa_model__RiggFinish_UV_Ref:Right_Foot_Ctrl
+    400118: Santa_model__RiggFinish_UV_Ref:Right_Forearm
+    400120: Santa_model__RiggFinish_UV_Ref:Right_Hand_Ctrl
+    400122: Santa_model__RiggFinish_UV_Ref:Right_Hand_Offset
+    400124: Santa_model__RiggFinish_UV_Ref:Right_Heel_Peel_Pivot
+    400126: Santa_model__RiggFinish_UV_Ref:Right_Knee
+    400128: Santa_model__RiggFinish_UV_Ref:Right_Knee_Ctrl
+    400130: Santa_model__RiggFinish_UV_Ref:Right_Leg
+    400132: Santa_model__RiggFinish_UV_Ref:Right_Shoulder
+    400134: Santa_model__RiggFinish_UV_Ref:Right_Swivel_Pivot
+    400136: Santa_model__RiggFinish_UV_Ref:Right_Thumb_1
+    400138: Santa_model__RiggFinish_UV_Ref:Right_Thumb_2
+    400140: Santa_model__RiggFinish_UV_Ref:Right_Toe
+    400142: Santa_model__RiggFinish_UV_Ref:Right_Toe_IK
+    400144: Santa_model__RiggFinish_UV_Ref:Right_Toe_Tap_Pivot
+    400146: Santa_model__RiggFinish_UV_Ref:Right_Toe_Tip_pivot
+    400148: Santa_model__RiggFinish_UV_Ref:Right_Wrist
+    400150: Santa_model__RiggFinish_UV_Ref:Root
+    400152: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+    400154: Santa_model__RiggFinish_UV_Ref:Skeleton_Group
+    400156: Santa_model__RiggFinish_UV_Ref:Super_Mover_Ctrl
+    400158: Santa_model__RiggFinish_UV_Ref:Upper_Back_Ctrl
+    400160: Santa_model__RiggFinish_UV_Ref:Upper_Body_Cluster
+    400162: //RootNode
+    400164: Tommy_Gun_Rig_Ref:polySurface4
+    400166: Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+    400168: Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1 1
+    400170: Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1 2
+    400172: Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1 3
+    400174: Tommy_Gun_Rig_Ref:Santa_Gun_Root_Joint
+    400176: Tommy_Gun_Rig_Ref:Santa_Tommy_Gun1
+    4300000: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+    4300002: Tommy_Gun_Rig_Ref:polySurface4
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+    13700002: Tommy_Gun_Rig_Ref:polySurface4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

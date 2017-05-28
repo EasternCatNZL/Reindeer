@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 27d8123c31aaa9a41ae144a6311c01df
+timeCreated: 1491916016
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Santa_model__RiggFinish_UV_Ref:Back_1
+    100002: Santa_model__RiggFinish_UV_Ref:Back_2
+    100004: Santa_model__RiggFinish_UV_Ref:Back_3
+    100006: Santa_model__RiggFinish_UV_Ref:Back_4
+    100008: Santa_model__RiggFinish_UV_Ref:IK_Back_Curve
+    100010: Santa_model__RiggFinish_UV_Ref:IK_Back_Handle
+    100012: Santa_model__RiggFinish_UV_Ref:joint5
+    100014: Santa_model__RiggFinish_UV_Ref:joint6
+    100016: Santa_model__RiggFinish_UV_Ref:joint7
+    100018: Santa_model__RiggFinish_UV_Ref:Left_Ankle
+    100020: Santa_model__RiggFinish_UV_Ref:Left_Arm_Ik
+    100022: Santa_model__RiggFinish_UV_Ref:Left_Ball
+    100024: Santa_model__RiggFinish_UV_Ref:Left_Clavical
+    100026: Santa_model__RiggFinish_UV_Ref:Left_Elbow
+    100028: Santa_model__RiggFinish_UV_Ref:Left_Finger_1
+    100030: Santa_model__RiggFinish_UV_Ref:Left_Finger_2
+    100032: Santa_model__RiggFinish_UV_Ref:Left_Finger_3
+    100034: Santa_model__RiggFinish_UV_Ref:Left_Forearm
+    100036: Santa_model__RiggFinish_UV_Ref:Left_Knee
+    100038: Santa_model__RiggFinish_UV_Ref:Left_Leg
+    100040: Santa_model__RiggFinish_UV_Ref:Left_Shoulder
+    100042: Santa_model__RiggFinish_UV_Ref:Left_Thumb_1
+    100044: Santa_model__RiggFinish_UV_Ref:Left_Thumb_2
+    100046: Santa_model__RiggFinish_UV_Ref:Left_Toe
+    100048: Santa_model__RiggFinish_UV_Ref:Left_Wrist
+    100050: Santa_model__RiggFinish_UV_Ref:Rig_Group_Dont_Touch
+    100052: Santa_model__RiggFinish_UV_Ref:Right_Ankle
+    100054: Santa_model__RiggFinish_UV_Ref:Right_Arm_Ik
+    100056: Santa_model__RiggFinish_UV_Ref:Right_Ball
+    100058: Santa_model__RiggFinish_UV_Ref:Right_Clavical
+    100060: Santa_model__RiggFinish_UV_Ref:Right_Elbow
+    100062: Santa_model__RiggFinish_UV_Ref:Right_Finger_1
+    100064: Santa_model__RiggFinish_UV_Ref:Right_Finger_2
+    100066: Santa_model__RiggFinish_UV_Ref:Right_Finger_3
+    100068: Santa_model__RiggFinish_UV_Ref:Right_Forearm
+    100070: Santa_model__RiggFinish_UV_Ref:Right_Knee
+    100072: Santa_model__RiggFinish_UV_Ref:Right_Leg
+    100074: Santa_model__RiggFinish_UV_Ref:Right_Shoulder
+    100076: Santa_model__RiggFinish_UV_Ref:Right_Thumb_1
+    100078: Santa_model__RiggFinish_UV_Ref:Right_Thumb_2
+    100080: Santa_model__RiggFinish_UV_Ref:Right_Toe
+    100082: Santa_model__RiggFinish_UV_Ref:Right_Wrist
+    100084: Santa_model__RiggFinish_UV_Ref:Root
+    100086: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+    100088: Santa_model__RiggFinish_UV_Ref:Skeleton_Group
+    100090: //RootNode
+    400000: Santa_model__RiggFinish_UV_Ref:Back_1
+    400002: Santa_model__RiggFinish_UV_Ref:Back_2
+    400004: Santa_model__RiggFinish_UV_Ref:Back_3
+    400006: Santa_model__RiggFinish_UV_Ref:Back_4
+    400008: Santa_model__RiggFinish_UV_Ref:IK_Back_Curve
+    400010: Santa_model__RiggFinish_UV_Ref:IK_Back_Handle
+    400012: Santa_model__RiggFinish_UV_Ref:joint5
+    400014: Santa_model__RiggFinish_UV_Ref:joint6
+    400016: Santa_model__RiggFinish_UV_Ref:joint7
+    400018: Santa_model__RiggFinish_UV_Ref:Left_Ankle
+    400020: Santa_model__RiggFinish_UV_Ref:Left_Arm_Ik
+    400022: Santa_model__RiggFinish_UV_Ref:Left_Ball
+    400024: Santa_model__RiggFinish_UV_Ref:Left_Clavical
+    400026: Santa_model__RiggFinish_UV_Ref:Left_Elbow
+    400028: Santa_model__RiggFinish_UV_Ref:Left_Finger_1
+    400030: Santa_model__RiggFinish_UV_Ref:Left_Finger_2
+    400032: Santa_model__RiggFinish_UV_Ref:Left_Finger_3
+    400034: Santa_model__RiggFinish_UV_Ref:Left_Forearm
+    400036: Santa_model__RiggFinish_UV_Ref:Left_Knee
+    400038: Santa_model__RiggFinish_UV_Ref:Left_Leg
+    400040: Santa_model__RiggFinish_UV_Ref:Left_Shoulder
+    400042: Santa_model__RiggFinish_UV_Ref:Left_Thumb_1
+    400044: Santa_model__RiggFinish_UV_Ref:Left_Thumb_2
+    400046: Santa_model__RiggFinish_UV_Ref:Left_Toe
+    400048: Santa_model__RiggFinish_UV_Ref:Left_Wrist
+    400050: Santa_model__RiggFinish_UV_Ref:Rig_Group_Dont_Touch
+    400052: Santa_model__RiggFinish_UV_Ref:Right_Ankle
+    400054: Santa_model__RiggFinish_UV_Ref:Right_Arm_Ik
+    400056: Santa_model__RiggFinish_UV_Ref:Right_Ball
+    400058: Santa_model__RiggFinish_UV_Ref:Right_Clavical
+    400060: Santa_model__RiggFinish_UV_Ref:Right_Elbow
+    400062: Santa_model__RiggFinish_UV_Ref:Right_Finger_1
+    400064: Santa_model__RiggFinish_UV_Ref:Right_Finger_2
+    400066: Santa_model__RiggFinish_UV_Ref:Right_Finger_3
+    400068: Santa_model__RiggFinish_UV_Ref:Right_Forearm
+    400070: Santa_model__RiggFinish_UV_Ref:Right_Knee
+    400072: Santa_model__RiggFinish_UV_Ref:Right_Leg
+    400074: Santa_model__RiggFinish_UV_Ref:Right_Shoulder
+    400076: Santa_model__RiggFinish_UV_Ref:Right_Thumb_1
+    400078: Santa_model__RiggFinish_UV_Ref:Right_Thumb_2
+    400080: Santa_model__RiggFinish_UV_Ref:Right_Toe
+    400082: Santa_model__RiggFinish_UV_Ref:Right_Wrist
+    400084: Santa_model__RiggFinish_UV_Ref:Root
+    400086: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+    400088: Santa_model__RiggFinish_UV_Ref:Skeleton_Group
+    400090: //RootNode
+    4300000: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Santa_model__RiggFinish_UV_Ref:Santa_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

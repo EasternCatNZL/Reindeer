@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 8080c0f9d8dad6947aa75ebdf628bdcd
+timeCreated: 1494905013
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_1
+    100002: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_2
+    100004: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_3
+    100006: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_4
+    100008: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_5
+    100010: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_6
+    100012: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_7
+    100014: redindeer_Boss_Rework_Rig_Uved_Final_Ref:IK_Spline
+    100016: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Ankle
+    100018: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Ball
+    100020: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Knee
+    100022: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Leg
+    100024: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Toe_tip
+    100026: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Reindeer_Boss_Rework_Model
+    100028: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Rig_Grp_DNT
+    100030: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Ankle
+    100032: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Ball
+    100034: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Knee
+    100036: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Leg
+    100038: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Toe_tip
+    100040: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root
+    100042: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group
+    100044: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Spline_Curve
+    100046: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_1
+    100048: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_2
+    100050: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_3
+    100052: //RootNode
+    400000: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_1
+    400002: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_2
+    400004: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_3
+    400006: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_4
+    400008: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_5
+    400010: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_6
+    400012: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_7
+    400014: redindeer_Boss_Rework_Rig_Uved_Final_Ref:IK_Spline
+    400016: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Ankle
+    400018: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Ball
+    400020: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Knee
+    400022: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Leg
+    400024: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Toe_tip
+    400026: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Reindeer_Boss_Rework_Model
+    400028: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Rig_Grp_DNT
+    400030: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Ankle
+    400032: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Ball
+    400034: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Knee
+    400036: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Leg
+    400038: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Toe_tip
+    400040: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root
+    400042: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group
+    400044: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Spline_Curve
+    400046: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_1
+    400048: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_2
+    400050: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_3
+    400052: //RootNode
+    4300000: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Reindeer_Boss_Rework_Model
+    7400000: Reigndeer_Idle
+    9500000: //RootNode
+    13700000: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Reindeer_Boss_Rework_Model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Reigndeer_Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Reindeer_Boss_Rework_Model
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Rig_Grp_DNT
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Rig_Grp_DNT/redindeer_Boss_Rework_Rig_Uved_Final_Ref:IK_Spline
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Rig_Grp_DNT/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Spline_Curve
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_1
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_1/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_2
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_1/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_2/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_3
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_1/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_2/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_3/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_4
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_1/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_2/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_3/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_4/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_5
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_1/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_2/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_3/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_4/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_5/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_6
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_1/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_2/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_3/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_4/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_5/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_6/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Back_7
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Leg
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Leg/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Knee
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Leg/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Knee/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Ankle
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Leg/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Knee/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Ankle/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Ball
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Leg/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Knee/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Ankle/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Ball/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Left_Toe_tip
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Leg
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Leg/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Knee
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Leg/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Knee/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Ankle
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Leg/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Knee/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Ankle/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Ball
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Leg/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Knee/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Ankle/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Ball/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Right_Toe_tip
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_1
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_1/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_2
+        weight: 1
+      - path: redindeer_Boss_Rework_Rig_Uved_Final_Ref:Skeleton_Group/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Root/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_1/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_2/redindeer_Boss_Rework_Rig_Uved_Final_Ref:Tail_3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

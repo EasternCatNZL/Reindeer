@@ -1,0 +1,371 @@
+fileFormatVersion: 2
+guid: a12c8d609fe588c48a2bd48db2c80c1f
+timeCreated: 1495262167
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chimney_Weapon:Chimney_Bot
+    100002: Chimney_Weapon:Chimney_Root
+    100004: Chimney_Weapon:Chimney_Root_Group
+    100006: Chimney_Weapon:Chimney_Top
+    100008: Chimney_Weapon:Santa_Chimney_Attack_Mesh
+    100010: //RootNode
+    100012: Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1
+    100014: Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2
+    100016: Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3
+    100018: Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_4
+    100020: Santa_model__RiggFinish_UV_Ref_With_Weapon:IK_Back_Curve
+    100022: Santa_model__RiggFinish_UV_Ref_With_Weapon:IK_Back_Handle
+    100024: Santa_model__RiggFinish_UV_Ref_With_Weapon:joint5
+    100026: Santa_model__RiggFinish_UV_Ref_With_Weapon:joint6
+    100028: Santa_model__RiggFinish_UV_Ref_With_Weapon:joint7
+    100030: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Ankle
+    100032: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Arm_Ik
+    100034: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Ball
+    100036: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical
+    100038: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Elbow
+    100040: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_1
+    100042: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_2
+    100044: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_3
+    100046: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Forearm
+    100048: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Knee
+    100050: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Leg
+    100052: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder
+    100054: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Thumb_1
+    100056: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Thumb_2
+    100058: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Toe
+    100060: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Wrist
+    100062: Santa_model__RiggFinish_UV_Ref_With_Weapon:Rig_Group_Dont_Touch
+    100064: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Ankle
+    100066: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Arm_Ik
+    100068: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Ball
+    100070: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical
+    100072: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Elbow
+    100074: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_1
+    100076: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_2
+    100078: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_3
+    100080: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Forearm
+    100082: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Knee
+    100084: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Leg
+    100086: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder
+    100088: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Thumb_1
+    100090: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Thumb_2
+    100092: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Toe
+    100094: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Wrist
+    100096: Santa_model__RiggFinish_UV_Ref_With_Weapon:Root
+    100098: Santa_model__RiggFinish_UV_Ref_With_Weapon:Santa_Mesh
+    100100: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group
+    100102: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:polySurface4
+    100104: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+    100106: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+      1
+    100108: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+      2
+    100110: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+      3
+    100112: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Root_Joint
+    100114: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Tommy_Gun1
+    400000: Chimney_Weapon:Chimney_Bot
+    400002: Chimney_Weapon:Chimney_Root
+    400004: Chimney_Weapon:Chimney_Root_Group
+    400006: Chimney_Weapon:Chimney_Top
+    400008: Chimney_Weapon:Santa_Chimney_Attack_Mesh
+    400010: //RootNode
+    400012: Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1
+    400014: Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2
+    400016: Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3
+    400018: Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_4
+    400020: Santa_model__RiggFinish_UV_Ref_With_Weapon:IK_Back_Curve
+    400022: Santa_model__RiggFinish_UV_Ref_With_Weapon:IK_Back_Handle
+    400024: Santa_model__RiggFinish_UV_Ref_With_Weapon:joint5
+    400026: Santa_model__RiggFinish_UV_Ref_With_Weapon:joint6
+    400028: Santa_model__RiggFinish_UV_Ref_With_Weapon:joint7
+    400030: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Ankle
+    400032: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Arm_Ik
+    400034: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Ball
+    400036: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical
+    400038: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Elbow
+    400040: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_1
+    400042: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_2
+    400044: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_3
+    400046: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Forearm
+    400048: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Knee
+    400050: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Leg
+    400052: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder
+    400054: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Thumb_1
+    400056: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Thumb_2
+    400058: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Toe
+    400060: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Wrist
+    400062: Santa_model__RiggFinish_UV_Ref_With_Weapon:Rig_Group_Dont_Touch
+    400064: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Ankle
+    400066: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Arm_Ik
+    400068: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Ball
+    400070: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical
+    400072: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Elbow
+    400074: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_1
+    400076: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_2
+    400078: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_3
+    400080: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Forearm
+    400082: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Knee
+    400084: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Leg
+    400086: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder
+    400088: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Thumb_1
+    400090: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Thumb_2
+    400092: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Toe
+    400094: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Wrist
+    400096: Santa_model__RiggFinish_UV_Ref_With_Weapon:Root
+    400098: Santa_model__RiggFinish_UV_Ref_With_Weapon:Santa_Mesh
+    400100: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group
+    400102: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:polySurface4
+    400104: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+    400106: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+      1
+    400108: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+      2
+    400110: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+      3
+    400112: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Root_Joint
+    400114: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Tommy_Gun1
+    4300000: Santa_model__RiggFinish_UV_Ref_With_Weapon:Santa_Mesh
+    4300002: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:polySurface4
+    4300004: Chimney_Weapon:Santa_Chimney_Attack_Mesh
+    7400000: Santa Chimney
+    9500000: //RootNode
+    13700000: Chimney_Weapon:Santa_Chimney_Attack_Mesh
+    13700002: Santa_model__RiggFinish_UV_Ref_With_Weapon:Santa_Mesh
+    13700004: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:polySurface4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Santa Chimney
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.50006604
+        functionName: ChimneyShot
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: EndAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chimney_Weapon:Chimney_Root_Group
+        weight: 1
+      - path: Chimney_Weapon:Chimney_Root_Group/Chimney_Weapon:Chimney_Root
+        weight: 1
+      - path: Chimney_Weapon:Chimney_Root_Group/Chimney_Weapon:Chimney_Root/Chimney_Weapon:Chimney_Bot
+        weight: 1
+      - path: Chimney_Weapon:Chimney_Root_Group/Chimney_Weapon:Chimney_Root/Chimney_Weapon:Chimney_Top
+        weight: 1
+      - path: Chimney_Weapon:Santa_Chimney_Attack_Mesh
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Arm_Ik
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Rig_Group_Dont_Touch
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Rig_Group_Dont_Touch/Santa_model__RiggFinish_UV_Ref_With_Weapon:IK_Back_Curve
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Rig_Group_Dont_Touch/Santa_model__RiggFinish_UV_Ref_With_Weapon:IK_Back_Handle
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Arm_Ik
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Santa_Mesh
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_4
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_4/Santa_model__RiggFinish_UV_Ref_With_Weapon:joint5
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_4/Santa_model__RiggFinish_UV_Ref_With_Weapon:joint5/Santa_model__RiggFinish_UV_Ref_With_Weapon:joint6
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_4/Santa_model__RiggFinish_UV_Ref_With_Weapon:joint5/Santa_model__RiggFinish_UV_Ref_With_Weapon:joint6/Santa_model__RiggFinish_UV_Ref_With_Weapon:joint7
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Elbow
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Forearm
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Wrist
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Wrist/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Wrist/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Wrist/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Finger_3
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Wrist/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Thumb_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Wrist/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Thumb_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Thumb_2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Elbow
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Forearm
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Wrist
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Wrist/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Wrist/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Wrist/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Finger_3
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Wrist/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Thumb_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Back_3/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Clavical/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Shoulder/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Elbow/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Forearm/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Wrist/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Thumb_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Thumb_2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Leg
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Leg/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Knee
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Leg/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Knee/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Ankle
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Leg/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Knee/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Ankle/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Ball
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Leg/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Knee/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Ankle/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Ball/Santa_model__RiggFinish_UV_Ref_With_Weapon:Left_Toe
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Leg
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Leg/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Knee
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Leg/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Knee/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Ankle
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Leg/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Knee/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Ankle/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Ball
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Skeleton_Group/Santa_model__RiggFinish_UV_Ref_With_Weapon:Root/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Leg/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Knee/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Ankle/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Ball/Santa_model__RiggFinish_UV_Ref_With_Weapon:Right_Toe
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:polySurface4
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Root_Joint
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Root_Joint/Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Root_Joint/Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+          1
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Root_Joint/Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+          1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+          2
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Root_Joint/Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+          1/Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+          2/Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Gun_Joint_1
+          3
+        weight: 1
+      - path: Santa_model__RiggFinish_UV_Ref_With_Weapon:Tommy_Gun_Rig_Ref:Santa_Tommy_Gun1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

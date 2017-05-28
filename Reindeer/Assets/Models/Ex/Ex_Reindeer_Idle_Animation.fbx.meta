@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: 41007710ce7c8c44bb14fac27524d0bf
+timeCreated: 1495259512
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Reindeer_EX_Model_Uved_Rigged:Back_1
+    100004: Reindeer_EX_Model_Uved_Rigged:Back_2
+    100006: Reindeer_EX_Model_Uved_Rigged:Back_3
+    100008: Reindeer_EX_Model_Uved_Rigged:Back_4
+    100010: Reindeer_EX_Model_Uved_Rigged:Back_5
+    100012: Reindeer_EX_Model_Uved_Rigged:Back_6
+    100014: Reindeer_EX_Model_Uved_Rigged:Back_7
+    100016: Reindeer_EX_Model_Uved_Rigged:Back_8
+    100018: Reindeer_EX_Model_Uved_Rigged:Back_Curve
+    100020: Reindeer_EX_Model_Uved_Rigged:Back_Ik
+    100022: Reindeer_EX_Model_Uved_Rigged:Ex_Girlfriend_Model
+    100024: Reindeer_EX_Model_Uved_Rigged:Ex_Girlfriend_Weapon
+    100026: Reindeer_EX_Model_Uved_Rigged:Left_Ankle_Joint
+    100028: Reindeer_EX_Model_Uved_Rigged:Left_Arm_Ik
+    100030: Reindeer_EX_Model_Uved_Rigged:Left_Ball_Joint
+    100032: Reindeer_EX_Model_Uved_Rigged:Left_Clavical
+    100034: Reindeer_EX_Model_Uved_Rigged:Left_Elbow
+    100036: Reindeer_EX_Model_Uved_Rigged:Left_Fist_1
+    100038: Reindeer_EX_Model_Uved_Rigged:Left_Fist_2
+    100040: Reindeer_EX_Model_Uved_Rigged:Left_Fist_3
+    100042: Reindeer_EX_Model_Uved_Rigged:Left_Forearm
+    100044: Reindeer_EX_Model_Uved_Rigged:Left_Knee_Joint
+    100046: Reindeer_EX_Model_Uved_Rigged:Left_Leg_Joint
+    100048: Reindeer_EX_Model_Uved_Rigged:Left_Shoulder
+    100050: Reindeer_EX_Model_Uved_Rigged:Left_Thumb_1
+    100052: Reindeer_EX_Model_Uved_Rigged:Left_Thumb_2
+    100054: Reindeer_EX_Model_Uved_Rigged:Left_Toe_Tip
+    100056: Reindeer_EX_Model_Uved_Rigged:Left_Wrist
+    100058: Reindeer_EX_Model_Uved_Rigged:Rig_Group_Dnt
+    100060: Reindeer_EX_Model_Uved_Rigged:Right_Ankle_Joint
+    100062: Reindeer_EX_Model_Uved_Rigged:Right_Arm_Ik
+    100064: Reindeer_EX_Model_Uved_Rigged:Right_Ball_Joint
+    100066: Reindeer_EX_Model_Uved_Rigged:Right_Clavical
+    100068: Reindeer_EX_Model_Uved_Rigged:Right_Elbow
+    100070: Reindeer_EX_Model_Uved_Rigged:Right_Fist_1
+    100072: Reindeer_EX_Model_Uved_Rigged:Right_Fist_2
+    100074: Reindeer_EX_Model_Uved_Rigged:Right_Fist_3
+    100076: Reindeer_EX_Model_Uved_Rigged:Right_Forearm
+    100078: Reindeer_EX_Model_Uved_Rigged:Right_Knee_Joint
+    100080: Reindeer_EX_Model_Uved_Rigged:Right_Leg_Joint
+    100082: Reindeer_EX_Model_Uved_Rigged:Right_Shoulder
+    100084: Reindeer_EX_Model_Uved_Rigged:Right_Thumb_1
+    100086: Reindeer_EX_Model_Uved_Rigged:Right_Thumb_2
+    100088: Reindeer_EX_Model_Uved_Rigged:Right_Toe_Tip
+    100090: Reindeer_EX_Model_Uved_Rigged:Right_Wrist
+    100092: Reindeer_EX_Model_Uved_Rigged:Root
+    100094: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group
+    100096: Reindeer_EX_Model_Uved_Rigged:Weapon_Bot_Joint
+    100098: Reindeer_EX_Model_Uved_Rigged:Weapon_Root_Joint
+    100100: Reindeer_EX_Model_Uved_Rigged:Weapont_Top_Joint
+    400000: //RootNode
+    400002: Reindeer_EX_Model_Uved_Rigged:Back_1
+    400004: Reindeer_EX_Model_Uved_Rigged:Back_2
+    400006: Reindeer_EX_Model_Uved_Rigged:Back_3
+    400008: Reindeer_EX_Model_Uved_Rigged:Back_4
+    400010: Reindeer_EX_Model_Uved_Rigged:Back_5
+    400012: Reindeer_EX_Model_Uved_Rigged:Back_6
+    400014: Reindeer_EX_Model_Uved_Rigged:Back_7
+    400016: Reindeer_EX_Model_Uved_Rigged:Back_8
+    400018: Reindeer_EX_Model_Uved_Rigged:Back_Curve
+    400020: Reindeer_EX_Model_Uved_Rigged:Back_Ik
+    400022: Reindeer_EX_Model_Uved_Rigged:Ex_Girlfriend_Model
+    400024: Reindeer_EX_Model_Uved_Rigged:Ex_Girlfriend_Weapon
+    400026: Reindeer_EX_Model_Uved_Rigged:Left_Ankle_Joint
+    400028: Reindeer_EX_Model_Uved_Rigged:Left_Arm_Ik
+    400030: Reindeer_EX_Model_Uved_Rigged:Left_Ball_Joint
+    400032: Reindeer_EX_Model_Uved_Rigged:Left_Clavical
+    400034: Reindeer_EX_Model_Uved_Rigged:Left_Elbow
+    400036: Reindeer_EX_Model_Uved_Rigged:Left_Fist_1
+    400038: Reindeer_EX_Model_Uved_Rigged:Left_Fist_2
+    400040: Reindeer_EX_Model_Uved_Rigged:Left_Fist_3
+    400042: Reindeer_EX_Model_Uved_Rigged:Left_Forearm
+    400044: Reindeer_EX_Model_Uved_Rigged:Left_Knee_Joint
+    400046: Reindeer_EX_Model_Uved_Rigged:Left_Leg_Joint
+    400048: Reindeer_EX_Model_Uved_Rigged:Left_Shoulder
+    400050: Reindeer_EX_Model_Uved_Rigged:Left_Thumb_1
+    400052: Reindeer_EX_Model_Uved_Rigged:Left_Thumb_2
+    400054: Reindeer_EX_Model_Uved_Rigged:Left_Toe_Tip
+    400056: Reindeer_EX_Model_Uved_Rigged:Left_Wrist
+    400058: Reindeer_EX_Model_Uved_Rigged:Rig_Group_Dnt
+    400060: Reindeer_EX_Model_Uved_Rigged:Right_Ankle_Joint
+    400062: Reindeer_EX_Model_Uved_Rigged:Right_Arm_Ik
+    400064: Reindeer_EX_Model_Uved_Rigged:Right_Ball_Joint
+    400066: Reindeer_EX_Model_Uved_Rigged:Right_Clavical
+    400068: Reindeer_EX_Model_Uved_Rigged:Right_Elbow
+    400070: Reindeer_EX_Model_Uved_Rigged:Right_Fist_1
+    400072: Reindeer_EX_Model_Uved_Rigged:Right_Fist_2
+    400074: Reindeer_EX_Model_Uved_Rigged:Right_Fist_3
+    400076: Reindeer_EX_Model_Uved_Rigged:Right_Forearm
+    400078: Reindeer_EX_Model_Uved_Rigged:Right_Knee_Joint
+    400080: Reindeer_EX_Model_Uved_Rigged:Right_Leg_Joint
+    400082: Reindeer_EX_Model_Uved_Rigged:Right_Shoulder
+    400084: Reindeer_EX_Model_Uved_Rigged:Right_Thumb_1
+    400086: Reindeer_EX_Model_Uved_Rigged:Right_Thumb_2
+    400088: Reindeer_EX_Model_Uved_Rigged:Right_Toe_Tip
+    400090: Reindeer_EX_Model_Uved_Rigged:Right_Wrist
+    400092: Reindeer_EX_Model_Uved_Rigged:Root
+    400094: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group
+    400096: Reindeer_EX_Model_Uved_Rigged:Weapon_Bot_Joint
+    400098: Reindeer_EX_Model_Uved_Rigged:Weapon_Root_Joint
+    400100: Reindeer_EX_Model_Uved_Rigged:Weapont_Top_Joint
+    4300000: Reindeer_EX_Model_Uved_Rigged:Ex_Girlfriend_Weapon
+    4300002: Reindeer_EX_Model_Uved_Rigged:Ex_Girlfriend_Model
+    7400000: Ex Idle
+    9500000: //RootNode
+    13700000: Reindeer_EX_Model_Uved_Rigged:Ex_Girlfriend_Model
+    13700002: Reindeer_EX_Model_Uved_Rigged:Ex_Girlfriend_Weapon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Ex Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Ex_Girlfriend_Model
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Ex_Girlfriend_Weapon
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Left_Arm_Ik
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Rig_Group_Dnt
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Rig_Group_Dnt/Reindeer_EX_Model_Uved_Rigged:Back_Curve
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Rig_Group_Dnt/Reindeer_EX_Model_Uved_Rigged:Back_Ik
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Right_Arm_Ik
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Back_8
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Left_Clavical
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Left_Clavical/Reindeer_EX_Model_Uved_Rigged:Left_Shoulder
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Left_Clavical/Reindeer_EX_Model_Uved_Rigged:Left_Shoulder/Reindeer_EX_Model_Uved_Rigged:Left_Elbow
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Left_Clavical/Reindeer_EX_Model_Uved_Rigged:Left_Shoulder/Reindeer_EX_Model_Uved_Rigged:Left_Elbow/Reindeer_EX_Model_Uved_Rigged:Left_Forearm
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Left_Clavical/Reindeer_EX_Model_Uved_Rigged:Left_Shoulder/Reindeer_EX_Model_Uved_Rigged:Left_Elbow/Reindeer_EX_Model_Uved_Rigged:Left_Forearm/Reindeer_EX_Model_Uved_Rigged:Left_Wrist
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Left_Clavical/Reindeer_EX_Model_Uved_Rigged:Left_Shoulder/Reindeer_EX_Model_Uved_Rigged:Left_Elbow/Reindeer_EX_Model_Uved_Rigged:Left_Forearm/Reindeer_EX_Model_Uved_Rigged:Left_Wrist/Reindeer_EX_Model_Uved_Rigged:Left_Fist_1
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Left_Clavical/Reindeer_EX_Model_Uved_Rigged:Left_Shoulder/Reindeer_EX_Model_Uved_Rigged:Left_Elbow/Reindeer_EX_Model_Uved_Rigged:Left_Forearm/Reindeer_EX_Model_Uved_Rigged:Left_Wrist/Reindeer_EX_Model_Uved_Rigged:Left_Fist_1/Reindeer_EX_Model_Uved_Rigged:Left_Fist_2
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Left_Clavical/Reindeer_EX_Model_Uved_Rigged:Left_Shoulder/Reindeer_EX_Model_Uved_Rigged:Left_Elbow/Reindeer_EX_Model_Uved_Rigged:Left_Forearm/Reindeer_EX_Model_Uved_Rigged:Left_Wrist/Reindeer_EX_Model_Uved_Rigged:Left_Fist_1/Reindeer_EX_Model_Uved_Rigged:Left_Fist_2/Reindeer_EX_Model_Uved_Rigged:Left_Fist_3
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Left_Clavical/Reindeer_EX_Model_Uved_Rigged:Left_Shoulder/Reindeer_EX_Model_Uved_Rigged:Left_Elbow/Reindeer_EX_Model_Uved_Rigged:Left_Forearm/Reindeer_EX_Model_Uved_Rigged:Left_Wrist/Reindeer_EX_Model_Uved_Rigged:Left_Thumb_1
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Left_Clavical/Reindeer_EX_Model_Uved_Rigged:Left_Shoulder/Reindeer_EX_Model_Uved_Rigged:Left_Elbow/Reindeer_EX_Model_Uved_Rigged:Left_Forearm/Reindeer_EX_Model_Uved_Rigged:Left_Wrist/Reindeer_EX_Model_Uved_Rigged:Left_Thumb_1/Reindeer_EX_Model_Uved_Rigged:Left_Thumb_2
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Right_Clavical
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Right_Clavical/Reindeer_EX_Model_Uved_Rigged:Right_Shoulder
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Right_Clavical/Reindeer_EX_Model_Uved_Rigged:Right_Shoulder/Reindeer_EX_Model_Uved_Rigged:Right_Elbow
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Right_Clavical/Reindeer_EX_Model_Uved_Rigged:Right_Shoulder/Reindeer_EX_Model_Uved_Rigged:Right_Elbow/Reindeer_EX_Model_Uved_Rigged:Right_Forearm
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Right_Clavical/Reindeer_EX_Model_Uved_Rigged:Right_Shoulder/Reindeer_EX_Model_Uved_Rigged:Right_Elbow/Reindeer_EX_Model_Uved_Rigged:Right_Forearm/Reindeer_EX_Model_Uved_Rigged:Right_Wrist
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Right_Clavical/Reindeer_EX_Model_Uved_Rigged:Right_Shoulder/Reindeer_EX_Model_Uved_Rigged:Right_Elbow/Reindeer_EX_Model_Uved_Rigged:Right_Forearm/Reindeer_EX_Model_Uved_Rigged:Right_Wrist/Reindeer_EX_Model_Uved_Rigged:Right_Fist_1
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Right_Clavical/Reindeer_EX_Model_Uved_Rigged:Right_Shoulder/Reindeer_EX_Model_Uved_Rigged:Right_Elbow/Reindeer_EX_Model_Uved_Rigged:Right_Forearm/Reindeer_EX_Model_Uved_Rigged:Right_Wrist/Reindeer_EX_Model_Uved_Rigged:Right_Fist_1/Reindeer_EX_Model_Uved_Rigged:Right_Fist_2
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Right_Clavical/Reindeer_EX_Model_Uved_Rigged:Right_Shoulder/Reindeer_EX_Model_Uved_Rigged:Right_Elbow/Reindeer_EX_Model_Uved_Rigged:Right_Forearm/Reindeer_EX_Model_Uved_Rigged:Right_Wrist/Reindeer_EX_Model_Uved_Rigged:Right_Fist_1/Reindeer_EX_Model_Uved_Rigged:Right_Fist_2/Reindeer_EX_Model_Uved_Rigged:Right_Fist_3
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Right_Clavical/Reindeer_EX_Model_Uved_Rigged:Right_Shoulder/Reindeer_EX_Model_Uved_Rigged:Right_Elbow/Reindeer_EX_Model_Uved_Rigged:Right_Forearm/Reindeer_EX_Model_Uved_Rigged:Right_Wrist/Reindeer_EX_Model_Uved_Rigged:Right_Thumb_1
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Back_1/Reindeer_EX_Model_Uved_Rigged:Back_2/Reindeer_EX_Model_Uved_Rigged:Back_3/Reindeer_EX_Model_Uved_Rigged:Back_4/Reindeer_EX_Model_Uved_Rigged:Back_5/Reindeer_EX_Model_Uved_Rigged:Back_6/Reindeer_EX_Model_Uved_Rigged:Back_7/Reindeer_EX_Model_Uved_Rigged:Right_Clavical/Reindeer_EX_Model_Uved_Rigged:Right_Shoulder/Reindeer_EX_Model_Uved_Rigged:Right_Elbow/Reindeer_EX_Model_Uved_Rigged:Right_Forearm/Reindeer_EX_Model_Uved_Rigged:Right_Wrist/Reindeer_EX_Model_Uved_Rigged:Right_Thumb_1/Reindeer_EX_Model_Uved_Rigged:Right_Thumb_2
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Left_Leg_Joint
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Left_Leg_Joint/Reindeer_EX_Model_Uved_Rigged:Left_Knee_Joint
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Left_Leg_Joint/Reindeer_EX_Model_Uved_Rigged:Left_Knee_Joint/Reindeer_EX_Model_Uved_Rigged:Left_Ankle_Joint
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Left_Leg_Joint/Reindeer_EX_Model_Uved_Rigged:Left_Knee_Joint/Reindeer_EX_Model_Uved_Rigged:Left_Ankle_Joint/Reindeer_EX_Model_Uved_Rigged:Left_Ball_Joint
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Left_Leg_Joint/Reindeer_EX_Model_Uved_Rigged:Left_Knee_Joint/Reindeer_EX_Model_Uved_Rigged:Left_Ankle_Joint/Reindeer_EX_Model_Uved_Rigged:Left_Ball_Joint/Reindeer_EX_Model_Uved_Rigged:Left_Toe_Tip
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Right_Leg_Joint
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Right_Leg_Joint/Reindeer_EX_Model_Uved_Rigged:Right_Knee_Joint
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Right_Leg_Joint/Reindeer_EX_Model_Uved_Rigged:Right_Knee_Joint/Reindeer_EX_Model_Uved_Rigged:Right_Ankle_Joint
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Right_Leg_Joint/Reindeer_EX_Model_Uved_Rigged:Right_Knee_Joint/Reindeer_EX_Model_Uved_Rigged:Right_Ankle_Joint/Reindeer_EX_Model_Uved_Rigged:Right_Ball_Joint
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Skeleton_Group/Reindeer_EX_Model_Uved_Rigged:Root/Reindeer_EX_Model_Uved_Rigged:Right_Leg_Joint/Reindeer_EX_Model_Uved_Rigged:Right_Knee_Joint/Reindeer_EX_Model_Uved_Rigged:Right_Ankle_Joint/Reindeer_EX_Model_Uved_Rigged:Right_Ball_Joint/Reindeer_EX_Model_Uved_Rigged:Right_Toe_Tip
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Weapon_Root_Joint
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Weapon_Root_Joint/Reindeer_EX_Model_Uved_Rigged:Weapon_Bot_Joint
+        weight: 1
+      - path: Reindeer_EX_Model_Uved_Rigged:Weapon_Root_Joint/Reindeer_EX_Model_Uved_Rigged:Weapont_Top_Joint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
