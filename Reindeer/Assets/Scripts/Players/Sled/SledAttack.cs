@@ -5,6 +5,7 @@ using XInputDotNetPure;
 
 public class SledAttack : MonoBehaviour {
 
+	public GameObject CooldownIcon = null;
 	//spin attack vars
 	[Header("Attack Stats")]
 	public float AttackDamage = 5.0f;
@@ -38,6 +39,7 @@ public class SledAttack : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
+		if(CooldownIcon)CooldownIcon.GetComponent<UICooldownIcons> ().SetReady ();
 	}
 	
 	// Update is called once per frame

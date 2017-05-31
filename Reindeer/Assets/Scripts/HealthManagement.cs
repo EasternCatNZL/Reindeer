@@ -41,6 +41,7 @@ public class HealthManagement : MonoBehaviour
             if (gameObject.tag != "Reindeer")
             {
                 GetComponent<BasicMovement>().SetDisabled(true);
+				Healthbar.SetActive (false);
             }
             if (DeathVFX)
             {
@@ -91,12 +92,13 @@ public class HealthManagement : MonoBehaviour
                 if (gameObject.tag == "Player")
                 {
                     GameManagement.GetGameManager().GetComponent<GameManagement>().SetDead(false);
+					GetComponent<Rigidbody> ().constraints = RigidbodyConstraints.FreezeAll;
                     
                 }
                 else
                 {
                     GameManagement.GetGameManager().GetComponent<GameManagement>().SetDead(true);
-                    deathSound.Play();
+                    if(deathSound)deathSound.Play();
                 }
             }
             UpdateUI();

@@ -5,6 +5,7 @@ using UnityEngine;
 //Add to bomb prefab to make it explode!
 public class BombAbility : MonoBehaviour {
 
+	private bool NoPlayers = false;
     [Header("Bomb Settings")]
     public float ExplosionRadius = 2.0f;
 	public float ExplosionDamage = 5.0f;
@@ -20,6 +21,10 @@ public class BombAbility : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
         Players = GameObject.FindGameObjectsWithTag("Player");
+		if (Players.Length == 0) {
+			NoPlayers = true;
+		}
+		GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
 	}
 
     public void Init()
@@ -47,15 +52,15 @@ public class BombAbility : MonoBehaviour {
     {
         Vector3 _Distance = Vector3.zero;
         //Loops through the players and checks distance against explosion radius
-        foreach(GameObject _Player in Players)
-        {
-            _Distance = _Player.transform.position - transform.position;
-            if(_Distance.magnitude < ExplosionRadius)
-            {
-				_Player.GetComponent<Rigidbody>().AddForce(((_Player.transform.position - transform.position) * KnockBackForce) + new Vector3(0.0f, KnockBackHeight, 0.0f), ForceMode.Impulse);
-				_Player.GetComponent<HealthManagement> ().DecreaseHealth (ExplosionDamage);
-            }
-        }
+		if (!NoPlayers) {
+			foreach (GameObject _Player in Players) {
+				_Distance = _Player.transform.position - transform.position;
+				if (_Distance.magnitude < ExplosionRadius) {
+					_Player.GetComponent<Rigidbody> ().AddForce (((_Player.transform.position - transform.position) * KnockBackForce) + new Vector3 (0.0f, KnockBackHeight, 0.0f), ForceMode.Impulse);
+					_Player.GetComponent<HealthManagement> ().DecreaseHealth (ExplosionDamage);
+				}
+			}
+		}
     }
 
     //Hides the bomb under the arena for further use

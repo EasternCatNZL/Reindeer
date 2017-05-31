@@ -6,6 +6,7 @@ public class RocketFist : MonoBehaviour
 {
 
     //Public Members
+	public bool NoPlayers = false;
     public GameObject ControllerRef;
 	[Header("Player Refs")]
 	public GameObject[] Players = new GameObject[3];
@@ -30,7 +31,7 @@ public class RocketFist : MonoBehaviour
     private Rigidbody Rigid; //Reference to the GameObject's Rigibody
 
     public bool TrackHands = true;
-    private bool OnReturnCooldown = false;
+    public bool OnReturnCooldown = false;
     private bool Returning = false; //State when the fist is returning
     private float ImpactTime; //When the fist hit the ground
     private float FlightTime = 0.0f; //Timer for flight length
@@ -48,9 +49,13 @@ public class RocketFist : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-
+		if (TrackHands)
+		{
+			transform.position = ControllerRef.transform.position;
+			transform.rotation = ControllerRef.transform.rotation;
+		}
         if (OnReturnCooldown) //Check if the Cooldown to return has expired
         {
             if (Time.time - ImpactTime > ReturnCooldown)
@@ -87,15 +92,6 @@ public class RocketFist : MonoBehaviour
         }
     }
 
-	void FixedUpdate()
-	{
-		if (TrackHands)
-		{
-			transform.position = ControllerRef.transform.position;
-			transform.rotation = ControllerRef.transform.rotation;
-		}
-	}
-
     //void OnCollisionEnter(Collision _other)
     //{
     //    Rigid.constraints = RigidbodyConstraints.FreezeAll;
@@ -105,9 +101,9 @@ public class RocketFist : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (!OnReturnCooldown)
+		if (!TrackHands && !Returning)
         {
-			if (other.tag == "Arena" || other.tag == "Player")
+			if (other.tag == "Arena")
             {
                 Instantiate(ImpactVFX, transform.position, ImpactVFX.transform.rotation);
                 Instantiate(ImpactRocks, transform.position, transform.rotation);
@@ -116,25 +112,22 @@ public class RocketFist : MonoBehaviour
                 punchImpactSound.pitch = Random.Range(0.6f, 1.0f);
                 //play sound
                 punchImpactSound.Play();
-
-                foreach (GameObject _Player in Players)
-				{
+				if (!NoPlayers) {
+					foreach (GameObject _Player in Players) {
 					
-					Vector3 _Distance = _Player.transform.position - transform.position;
-					if(_Distance.magnitude < HitRadius)
-					{
-						_Player.GetComponent<Rigidbody>().AddForce(((_Player.transform.position - transform.position) * KnockBackForce) + new Vector3(0.0f, KnockBackHeight, 0.0f), ForceMode.Impulse);
-						_Player.GetComponent<HealthManagement> ().DecreaseHealth (HitDamage);
-                        print("Hit Players");
+						Vector3 _Distance = _Player.transform.position - transform.position;
+						if (_Distance.magnitude < HitRadius) {
+							_Player.GetComponent<Rigidbody> ().AddForce (((_Player.transform.position - transform.position) * KnockBackForce) + new Vector3 (0.0f, KnockBackHeight, 0.0f), ForceMode.Impulse);
+							_Player.GetComponent<HealthManagement> ().DecreaseHealth (HitDamage);
+						}
 					}
 				}
-
                 Rigid.constraints = RigidbodyConstraints.FreezeAll;
                 ImpactTime = Time.time;
                 OnReturnCooldown = true;
-            }
         }
     }
+}
 
     public void Launch()
     {

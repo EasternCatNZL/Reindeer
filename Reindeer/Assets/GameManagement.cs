@@ -20,16 +20,24 @@ public class GameManagement : MonoBehaviour {
 	private PlayerIndex[] PlayerIndexes = new PlayerIndex[3];
 
     [Header("Victory Images")]
-    public GameObject ReigndeerWon;
-    public GameObject ReigndeerLoss;
-    public GameObject PlayersWon;
-    public GameObject PlayersLoss;
+    public GameObject ReigndeerScreen;
+    public Sprite ReigndeerDefeat;
+	public Sprite ReigndeerVictory;
+	public GameObject PlayersVictory;
+    public GameObject PlayersDefeat;
 
 	// Use this for initialization
 	void Start () {
         GameManager = gameObject;
-		CharacterManager = GameObject.Find ("CharManager");
-		PlayerIndexes = CharacterManager.GetComponent<CharacterManager> ().GetCharacters ();
+		if (GameObject.Find ("CharManager")) {
+			CharacterManager = GameObject.Find ("CharManager");
+			PlayerIndexes = CharacterManager.GetComponent<CharacterManager> ().GetCharacters ();
+		} else {
+			PlayerIndexes [0] = PlayerIndex.One;
+			PlayerIndexes [1] = PlayerIndex.Two;
+			PlayerIndexes [2] = PlayerIndex.Three;
+		}
+
 
 		if (PlayerIndexes [0] != PlayerIndex.Four) {
 			Santa.GetComponent<SantaAttack> ().index = PlayerIndexes [0];
@@ -76,15 +84,17 @@ public class GameManagement : MonoBehaviour {
     void Endgame(string _WhoWon)
     {
         if(_WhoWon.Contains("Players"))
-        {
-            ReigndeerLoss.SetActive(true);
-            PlayersWon.SetActive(true);
+        {			
+			ReigndeerScreen.GetComponent<SpriteRenderer> ().sprite = ReigndeerDefeat;
+			ReigndeerScreen.SetActive(true);
+			PlayersVictory.SetActive(true);
             Invoke("LoadMainMenu", 4);
         }
         else if(_WhoWon.Contains("Reigndeer"))
-        {
-            ReigndeerWon.SetActive(true);
-            PlayersLoss.SetActive(true);
+        {			
+			ReigndeerScreen.GetComponent<SpriteRenderer> ().sprite = ReigndeerVictory;
+			ReigndeerScreen.SetActive(true);
+			PlayersDefeat.SetActive(true);
             Invoke("LoadMainMenu", 4);
         }
 

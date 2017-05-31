@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ReindeerMissileTest : MonoBehaviour {
 
-    public GameObject MissileAbility;
+	private bool NoPlayers = false;
+    public GameObject MissileAbilityRef;
     //launch vars
     public float launchSpeed = 50.0f; //speed of initial launch
 
@@ -42,7 +43,11 @@ public class ReindeerMissileTest : MonoBehaviour {
 	void Start () {
         rigid = GetComponent<Rigidbody>();
         rigid.constraints = RigidbodyConstraints.FreezeAll;
+		MissileAbilityRef = GameObject.FindGameObjectWithTag ("Reindeer");
         players = GameObject.FindGameObjectsWithTag("Player");
+		if (players.Length == 0) {
+			NoPlayers = true;
+		}
         //Launch();
     }
 	
@@ -65,8 +70,9 @@ public class ReindeerMissileTest : MonoBehaviour {
     public void Launch()
     {
         transform.rotation = Random.rotation;
+		rigid.velocity = Vector3.zero;
         rigid.constraints = RigidbodyConstraints.None;
-        rigid.velocity = Vector3.zero;
+
         //add velocity
         rigid.velocity = Vector3.up * launchSpeed;
         //apply the force
@@ -163,17 +169,17 @@ public class ReindeerMissileTest : MonoBehaviour {
     {
         Instantiate(ExplosionVFX, transform.position, ExplosionVFX.transform.rotation);
 
-        foreach (GameObject _Player in players)
-        {
-            Vector3 _Distance = _Player.transform.position - transform.position;
-            if (_Distance.magnitude < ExplosionRadius)
-            {
-                _Player.GetComponent<Rigidbody>().AddForce(((_Player.transform.position - transform.position) * KnockbackForce) + new Vector3(0.0f, KnockbackHeight, 0.0f), ForceMode.Impulse);
-                _Player.GetComponent<HealthManagement>().DecreaseHealth(ExplosionDamage);
-            }
-        }
+		if (!NoPlayers) {
+			foreach (GameObject _Player in players) {
+				Vector3 _Distance = _Player.transform.position - transform.position;
+				if (_Distance.magnitude < ExplosionRadius) {
+					_Player.GetComponent<Rigidbody> ().AddForce (((_Player.transform.position - transform.position) * KnockbackForce) + new Vector3 (0.0f, KnockbackHeight, 0.0f), ForceMode.Impulse);
+					_Player.GetComponent<HealthManagement> ().DecreaseHealth (ExplosionDamage);
+				}
+			}
+		}
 
-        MissileAbility.GetComponent<MissileAbility>().ResetTargets();
+		MissileAbilityRef.GetComponent<MissileAbility>().ResetTargets();
 
         targetAquired = false;
         airbourne = false;

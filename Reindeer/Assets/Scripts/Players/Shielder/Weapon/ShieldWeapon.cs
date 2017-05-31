@@ -34,7 +34,6 @@ public class ShieldWeapon : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-		print ("TRIGGER");
         //check if active
         if (isActive)
         {

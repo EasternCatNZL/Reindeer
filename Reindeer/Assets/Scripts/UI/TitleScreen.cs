@@ -31,7 +31,7 @@ public class TitleScreen : MonoBehaviour
     public Image Instructions;
     [Header("Controller Settings")]
     public float Deadzone;
-
+    public float MenuDelayTime = 0.5f; //Prevents the thumbstick from navigating the menu really fastly
 
 
     private bool Begin = false;
@@ -118,7 +118,7 @@ public class TitleScreen : MonoBehaviour
     void ChangeChoice()
     {
         //check if player can input
-        if (canInput /*&& Time.time - lastTime > 0.1f*/)
+        if (canInput && Time.time - lastTime > MenuDelayTime)
         {
             //check for controller positive inputs
             if (state.ThumbSticks.Left.Y > Deadzone || state.DPad.Up == ButtonState.Pressed && prevState.DPad.Up == ButtonState.Released)
@@ -151,7 +151,7 @@ public class TitleScreen : MonoBehaviour
                     creditRef.sprite = creditImage[1];
                     quitRef.sprite = quitImage[1];
                 }
-
+                lastTime = Time.time;
             }
             //else check for negative controller inputs
             else if (state.ThumbSticks.Left.Y < -Deadzone || state.DPad.Down == ButtonState.Pressed && prevState.DPad.Down == ButtonState.Released)
@@ -184,9 +184,9 @@ public class TitleScreen : MonoBehaviour
                     creditRef.sprite = creditImage[0];
                     quitRef.sprite = quitImage[1];
                 }
-
+                lastTime = Time.time;
             }
-            lastTime = Time.time;
+
         }
     }
 

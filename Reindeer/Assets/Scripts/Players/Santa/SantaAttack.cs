@@ -7,6 +7,7 @@ using XInputDotNetPure;
 public class SantaAttack : MonoBehaviour
 {
 
+	public GameObject CooldownIcon = null;
     //basic attacking vars
     //public bool isFiring; //checks if player is currently attacking
     [Header("Attack values")]
@@ -21,6 +22,7 @@ public class SantaAttack : MonoBehaviour
 	public GameObject SplatImage;
 
     private float lastSpecialTime; //time of last special
+	private bool SpecialReady = true;
 
     //transform ref
     [Header("Transforms for Projectiles")]
@@ -53,15 +55,20 @@ public class SantaAttack : MonoBehaviour
 
     // Use this for initialization
     void Start()
-    {
+	{
         anim = GetComponent<Animator>();
 		firePointClone = firePoint;
 		chimneyPointClone = chimneyPoint;
+		if(CooldownIcon)CooldownIcon.GetComponent<UICooldownIcons> ().SetReady ();
     }
 
     // Update is called once per frame
     void Update()
     {
+		if (Time.time - lastSpecialTime > specialDelay) {
+			SpecialReady = true;
+			if(CooldownIcon)CooldownIcon.GetComponent<UICooldownIcons> ().SetReady ();
+		}
         if (!isAttacking)
         {
 			state = GamePad.GetState(index);
@@ -96,7 +103,7 @@ public class SantaAttack : MonoBehaviour
     {
         //if cooldown time has passed
         //state = GamePad.GetState(index);
-        if (lastSpecialTime <= Time.time + specialDelay)
+		if (SpecialReady)
         {
             //if input
             if (state.Buttons.X == ButtonState.Pressed)
@@ -105,6 +112,10 @@ public class SantaAttack : MonoBehaviour
                 anim.SetTrigger("Chimney");
                 //set is attacking
                 isAttacking = true;
+				SpecialReady = false;
+				if(CooldownIcon)CooldownIcon.GetComponent<UICooldownIcons> ().SetGrey ();
+				GetComponent<BasicMovement> ().SetDisabled (true);
+				lastSpecialTime = Time.time;
             }
 
         }
@@ -130,6 +141,7 @@ public class SantaAttack : MonoBehaviour
         //create a new bullet
         GameObject bulletClone = santaChimneyBulletParticle;
 		//Instantiate(bulletClone, chimneyPointClone.transform.position, chimneyPointClone.transform.rotation);
+		GetComponent<BasicMovement> ().SetDisabled (false);
 		SplatImage.GetComponent<ScreenSplat>().ResetAlpha();
         //vary pitch
         santaChimneyShotSound.pitch = Random.Range(0.6f, 1.0f);

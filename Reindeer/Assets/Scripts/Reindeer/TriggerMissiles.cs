@@ -39,8 +39,6 @@ public class TriggerMissiles : MonoBehaviour
             CurrentPosition = trackedObj.transform.position;
             if (CurrentPosition.y - LastPosition.y < -0.5)
             {
-                print("FIRE THE MISSILES!!!");
-                print((CurrentPosition - LastPosition).ToString());
                 ReindeerRef.GetComponent<MissileAbility>().SpawnMissiles();
             }
         }

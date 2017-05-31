@@ -5,6 +5,7 @@ using UnityEngine;
 public class MissileAbility : MonoBehaviour {
     public bool DebugSpawn = false;
     [Header("Missile Settings")]
+	public GameObject CooldownIcon = null;
     public float MissileCooldown = 10.0f;
     public int MissileNumber = 20;
     public float OuterRadius = 5.0f;
@@ -16,6 +17,7 @@ public class MissileAbility : MonoBehaviour {
     public List<GameObject> Targets; //Doesn't work if set to private :'(
     public List<GameObject> Missiles;
 
+	private bool MissileReady = true;
     private float LastTime = 0.0f;
 
     // Use this for initialization
@@ -25,7 +27,7 @@ public class MissileAbility : MonoBehaviour {
 
         for (int i = 0; i < MissileNumber; ++i)
         {
-            Targets.Add(Instantiate(TargetPrefab, new Vector3(0.0f, -20.0f, 0.0f), Quaternion.identity));
+			Targets.Add(Instantiate(TargetPrefab, new Vector3(0.0f, -20.0f, 0.0f), TargetPrefab.transform.rotation));
         }
         for (int i = 0; i < MissileNumber; ++i)
         {
@@ -36,6 +38,10 @@ public class MissileAbility : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+		if (Time.time - LastTime > MissileCooldown) {
+			MissileReady = true;
+			CooldownIcon.GetComponent<UICooldownIcons> ().SetReady ();
+		}
         if(DebugSpawn)
         {
             SpawnMissiles();
@@ -49,7 +55,7 @@ public class MissileAbility : MonoBehaviour {
         float x = 0.0f;
         float z = 0.0f;
 
-        if (Time.time - LastTime > MissileCooldown)
+		if (MissileReady)
         {
             for (int i = 0; i < MissileNumber; ++i)
             {
@@ -60,16 +66,18 @@ public class MissileAbility : MonoBehaviour {
                     x = Random.Range(-OuterRadius, OuterRadius);
                     z = Random.Range(-OuterRadius, OuterRadius);
                 }
-                Vector3 temp = new Vector3(x, 0.4f, z);
+                Vector3 temp = new Vector3(x, 0.0f, z);
                 Targets[i].transform.position = temp;
             }
             for (int j = 0; j < MissileNumber; ++j)
             {
                 Missiles[j].GetComponent<ReindeerMissileTest>().SetTargetPosition(Targets[j].transform.position);
-                Missiles[j].GetComponent<ReindeerMissileTest>().SetPosition(transform.position + new Vector3(0.0f, 2.0f, 0.0f));
+                Missiles[j].GetComponent<ReindeerMissileTest>().SetPosition(transform.position + new Vector3(0.0f, 10.0f, 0.0f));
                 Missiles[j].GetComponent<ReindeerMissileTest>().Launch();
             }
 
+			MissileReady = false;
+			CooldownIcon.GetComponent<UICooldownIcons> ().SetGrey ();
             LastTime = Time.time;
         }
     }

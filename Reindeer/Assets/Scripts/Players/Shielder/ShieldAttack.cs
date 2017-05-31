@@ -5,10 +5,11 @@ using XInputDotNetPure;
 
 public class ShieldAttack : MonoBehaviour {
 
+	public GameObject CooldownIcon = null; 
     //attack vars
     [Header("Attack Values")]
     public float attackDelay = 2.0f; //time that needs to past between attacks
-    public ShieldWeapon weapon; //ref to weapon script
+    public ShieldWeaponFixed weapon; //ref to weapon script
 
     private bool isAttacking = false; //check if currently attacking
     private float lastAttackTime; //time since last attack
@@ -16,8 +17,9 @@ public class ShieldAttack : MonoBehaviour {
     //shielding vars
     [Header("Shielding values")]
     public float shieldDelay = 5.0f; //time that needs to past between shields
+	public GameObject ShieldVFX = null;
 
-    private bool isShielding = false; //checks if shielding
+    public bool isShielding = false; //checks if shielding
     private float lastShieldTime; //time of last shield
 
     //animator
@@ -45,6 +47,10 @@ public class ShieldAttack : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//if other input not going
+		if (isShielding && Time.time - lastShieldTime > shieldDelay) {
+			isShielding = false;
+			if(CooldownIcon)CooldownIcon.GetComponent<UICooldownIcons> ().SetReady ();
+		}
         if (!isAttacking && !isShielding)
         {
 			state = GamePad.GetState(index);
@@ -76,12 +82,16 @@ public class ShieldAttack : MonoBehaviour {
         {
             //set shielding to true
             isShielding = true;
+			if(ShieldVFX)ShieldVFX.SetActive (true);
+			if(CooldownIcon)CooldownIcon.GetComponent<UICooldownIcons> ().SetGrey ();
+			//GetComponent<BasicMovement> ().SetDisabled (true);
             GetComponent<HealthManagement>().Shielded = true;
             //fire animator
             anim.SetTrigger("Shield");
             //spawn particles
             GameObject particleClone = exShieldStartParticle;
             Instantiate(particleClone, transform.position, transform.rotation);
+			lastShieldTime = Time.time;
         }
     }
 
@@ -118,9 +128,12 @@ public class ShieldAttack : MonoBehaviour {
     }
 
     //anim call to end shield
-    void EndShield()
+    public void EndShield()
     {
-		isShielding = false;
+        print(ShieldVFX.name);
+        if (ShieldVFX) { ShieldVFX.SetActive(false); print("Lamo"); }
+       
+		//GetComponent<BasicMovement> ().SetDisabled (false);
         GetComponent<HealthManagement>().Shielded = false;
     }
 }

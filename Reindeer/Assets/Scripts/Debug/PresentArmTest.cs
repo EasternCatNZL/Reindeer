@@ -138,14 +138,14 @@ public class PresentArmTest : MonoBehaviour
         {
             //spawn heal particle
             GameObject healClone = healParticle;
-            Instantiate(healClone, transform.position, transform.rotation);
+            Instantiate(healClone, transform.position, healClone.transform.rotation);
             //do heal thing
         }
         else if (presentType == 1)
         {
             //spawn blast particle
             GameObject blastClone = blastParticle;
-            Instantiate(blastClone, transform.position, transform.rotation);
+            Instantiate(blastClone, transform.position, blastClone.transform.rotation);
             //do blast thing
         }
         //destroy this object

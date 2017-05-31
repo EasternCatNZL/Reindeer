@@ -9,14 +9,16 @@ public class TriggerBomb : MonoBehaviour {
 	public Transform HeadRef;
 	public GameObject BombPrefab; //Reference to a rocket fist
 
+	private bool BombReady = true;
     public float BombCooldown = 5;
+	public GameObject CooldownIcon = null;
 
     public Vector3 BombPositionOffset;
 
-	public Vector3 Direction;
-	public float Dot;
+	private Vector3 Direction;
+	private float Dot;
 
-	public GameObject BombRef;
+	private GameObject BombRef;
 	public bool BombHandled = false;
 
     private float LastTime = 0.0f; //Last time since the bomb ability was used
@@ -40,9 +42,16 @@ public class TriggerBomb : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Controller.GetPressDown (Valve.VR.EVRButtonId.k_EButton_Grip) && Time.time - LastTime > BombCooldown)
+		if(Time.time - LastTime > BombCooldown && CooldownIcon)
+		{
+			BombReady = true;
+			CooldownIcon.GetComponent<UICooldownIcons> ().SetReady ();
+		}
+		if (Controller.GetPressDown (Valve.VR.EVRButtonId.k_EButton_Grip) && BombReady)
         {
 			GrabBomb ();
+			BombReady = false;
+			CooldownIcon.GetComponent<UICooldownIcons> ().SetGrey ();
 			LastTime = Time.time;
 		}
         if (Controller.GetPressUp (Valve.VR.EVRButtonId.k_EButton_Grip) && BombHandled) 
@@ -87,8 +96,8 @@ public class TriggerBomb : MonoBehaviour {
 			BombRef.GetComponent<Rigidbody>().velocity = Controller.velocity;
 			BombRef.GetComponent<Rigidbody>().angularVelocity = Controller.angularVelocity;
 
-            print("Controller Values:" + Controller.velocity.ToString() + " / " + Controller.angularVelocity.ToString() );
-            print("Bomb Values:" + BombRef.GetComponent<Rigidbody>().velocity.ToString() + " / " + BombRef.GetComponent<Rigidbody>().angularVelocity.ToString());
+            //print("Controller Values:" + Controller.velocity.ToString() + " / " + Controller.angularVelocity.ToString() );
+            //print("Bomb Values:" + BombRef.GetComponent<Rigidbody>().velocity.ToString() + " / " + BombRef.GetComponent<Rigidbody>().angularVelocity.ToString());
 
             BombHandled = false;
 		}
