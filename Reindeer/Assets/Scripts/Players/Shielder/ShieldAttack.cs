@@ -16,7 +16,8 @@ public class ShieldAttack : MonoBehaviour {
 
     //shielding vars
     [Header("Shielding values")]
-    public float shieldDelay = 5.0f; //time that needs to past between shields
+    public float shieldDuration = 5.0f;
+    public float shieldDelay = 8.0f; //time that needs to past between shields
 	public GameObject ShieldVFX = null;
 
     public bool isShielding = false; //checks if shielding
@@ -56,6 +57,11 @@ public class ShieldAttack : MonoBehaviour {
 			state = GamePad.GetState(index);
 			MeleeAttack ();
 			ShieldSpecial ();
+        }
+        //if shielding, check if end
+        if (GetComponent<HealthManagement>().Shielded)
+        {
+            EndShield();
         }
 	}
 
@@ -130,10 +136,11 @@ public class ShieldAttack : MonoBehaviour {
     //anim call to end shield
     public void EndShield()
     {
-        print(ShieldVFX.name);
-        if (ShieldVFX) { ShieldVFX.SetActive(false); print("Lamo"); }
-       
-		//GetComponent<BasicMovement> ().SetDisabled (false);
-        GetComponent<HealthManagement>().Shielded = false;
+        //check time
+        if (Time.time > lastShieldTime + shieldDuration)
+        {
+            //GetComponent<BasicMovement> ().SetDisabled (false);
+            GetComponent<HealthManagement>().Shielded = false;
+        }
     }
 }
