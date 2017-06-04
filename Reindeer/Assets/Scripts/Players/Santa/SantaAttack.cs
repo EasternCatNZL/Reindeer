@@ -34,6 +34,11 @@ public class SantaAttack : MonoBehaviour
     //animator
     Animator anim; //ref to animator
 
+    //bullet prefab
+    [Header("Bullet prefabs")]
+    public GameObject santaBulletPrefab;
+    public GameObject santaChimneyBulletPrefab;
+
     //particles
     [Header("Particles")]
     public GameObject santaShotCastParticle; //ref to particle emitted from gun when shooting <- not the bullet
@@ -127,7 +132,7 @@ public class SantaAttack : MonoBehaviour
         //create a new bullet
 		//print(firePoint);
 		//print (firePointClone);
-        GameObject bulletClone = santaShotBulletParticle;
+        GameObject bulletClone = santaBulletPrefab;
 		Instantiate(bulletClone, firePointClone.position + new Vector3(0.0f, 0.1f, 0.0f), firePointClone.rotation);
         //vary pitch
         santaShotSound.pitch = Random.Range(0.6f, 1.0f);
@@ -139,10 +144,11 @@ public class SantaAttack : MonoBehaviour
     void ChimneyShot()
     {
         //create a new bullet
-        GameObject bulletClone = santaChimneyBulletParticle;
-		//Instantiate(bulletClone, chimneyPointClone.transform.position, chimneyPointClone.transform.rotation);
+        GameObject bulletClone = santaChimneyBulletPrefab;
+		Instantiate(bulletClone, chimneyPointClone.transform.position, chimneyPointClone.transform.rotation);
+        //stop movement while anim playing
 		GetComponent<BasicMovement> ().SetDisabled (false);
-		SplatImage.GetComponent<ScreenSplat>().ResetAlpha();
+		//SplatImage.GetComponent<ScreenSplat>().ResetAlpha();
         //vary pitch
         santaChimneyShotSound.pitch = Random.Range(0.6f, 1.0f);
         //play sound
